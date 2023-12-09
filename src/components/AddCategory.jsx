@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-export const AddCategory = () => {
-  const [inputValue, setInputValue] = useState("second");
+export const AddCategory = ({ setCategories }) => {
+  const [inputValue, setInputValue] = useState("");
 
   /**
    * @param {React.ChangeEvent<HTMLInputElement>} event
@@ -15,7 +15,9 @@ export const AddCategory = () => {
    */
   const onSubmit = (event) => {
     event.preventDefault();
-
+    if (inputValue.trim().length <= 1) return;
+    setCategories(inputValue);
+    setInputValue("");
   };
 
   return (
