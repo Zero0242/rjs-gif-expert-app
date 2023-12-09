@@ -1,14 +1,3 @@
-/**
- * @typedef images
- * @prop {number} id
- * @prop {string} title
- * @prop {string} url
- */
-/**
- *
- * @param {string} category
- * @returns {images[]}
- */
 export const getGifs = async (category) => {
   const APIKEY = "GkImgdbm003amiEmPXg5g7A6orAe9XTY";
   const limite = 10;

@@ -16,7 +16,7 @@ export const AddCategory = ({ setCategories }) => {
   const onSubmit = (event) => {
     event.preventDefault();
     if (inputValue.trim().length <= 1) return;
-    setCategories( inputValue.trim() );
+    setCategories(inputValue.trim());
     setInputValue("");
   };
 
@@ -28,7 +28,6 @@ export const AddCategory = ({ setCategories }) => {
         value={inputValue}
         onChange={onChange}
       />
-      ;
     </form>
   );
 };
