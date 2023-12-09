@@ -9,7 +9,8 @@ export const GifExpertApp = () => {
    * @returns
    */
   const onAddCategory = (value) => {
-    setCategories([...categories, value]);
+    if (categories.includes(value)) return;
+    setCategories([value, ...categories]);
   };
 
   return (
@@ -20,8 +21,6 @@ export const GifExpertApp = () => {
       {/* Gif Grid */}
       {/* Gif Item */}
       <AddCategory setCategories={onAddCategory} />
-      <button onClick={onAddCategory}>Añadir</button>
-
       <ol>
         {categories.map((category, index) => (
           <li key={category + index}>{category}</li>
