@@ -12,8 +12,9 @@ Aplicacion de REACTJS creada durante el curso de [Udemy](https://www.udemy.com/c
 ## DEV
 
 1. Clonar repositorio con `git clone`
-2. Instalar los paquetes de React con `npm install`
-3. Ejecutar el proyecto con `npm run start`
+2. Configurar valores del `.env`
+3. Instalar los paquetes de React con `npm install`
+4. Ejecutar el proyecto con `npm run start`
 
 ## Requisitos
 
