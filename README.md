@@ -1,12 +1,49 @@
-# React + Vite
+<p align="center">
+  <a href="https://react.dev/" target="blank">
+  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1647490619965/P1dsNgj-f1.png" width="200" alt="App Logo" /></a>
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Proyecto Gif Expert
 
-Currently, two official plugins are available:
+Aplicacion de REACTJS creada durante el curso de [Udemy](https://www.udemy.com/course/react-cero-experto/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> Creado en React con vite
 
+## DEV
+
+1. Clonar repositorio con `git clone`
+2. Instalar los paquetes de React con `npm install`
+3. Ejecutar el proyecto con `npm run start`
+
+## Requisitos
+
+1. Tener instalado NodeJS
+
+## Scripts
+
+Algunos scripts que pueden ser utilizados
+
+| Comando         | Descripcion              |
+| --------------- | ------------------------ |
+| `npm install`   | Instala las dependencias |
+| `npm run build` | Compila la web           |
+| `npm run dev`   | Inicia el modo debug     |
+
+#### Otros Scripts
+
+Otros scripts que pueden usar para fines de desarrollo, (acciones de paquetes)
+
+| Comando              | Descripcion                                      |
+| -------------------- | ------------------------------------------------ |
+| `npm run test`       | Ejecuta las pruebas con Jest                     |
+| `npm run test:watch` | Ejecuta las pruebas en modo observación con Jest |
+
+## Documentacion
+
+Links de librerias utilizadas
+
+- [React JS](https://react.dev/)
+- [Jest](https://jestjs.io/)
 
 # Ambiente de Pruebas
 
